@@ -1,0 +1,8 @@
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\Loja.csprojResolveAssemblyReference.cache
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\MainWindow.baml
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\MainWindow.g.cs
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\App.g.cs
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\Loja_MarkupCompile.cache
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\Loja.g.resources
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\Loja.Properties.Resources.resources
+C:\Users\izael_000\Desktop\Loja\Loja\obj\x86\Debug\Loja.csproj.GenerateResource.Cache

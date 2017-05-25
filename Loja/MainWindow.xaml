@@ -1,0 +1,18 @@
+﻿<Window x:Class="Loja.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="330" Width="547" Background="Black">
+    <Grid Focusable="True">
+        <Button Content="Testando Produto.all" Height="23" HorizontalAlignment="Left" Margin="12,48,0,0" Name="btn_produto_all" VerticalAlignment="Top" Width="149" Click="btn_produto_all_Click" />
+        <DataGrid AutoGenerateColumns="False" Height="231" HorizontalAlignment="Left" Margin="170,41,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="343">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" />
+                <DataGridTextColumn Header="Preço"  Binding="{Binding Preco}"/>
+                <DataGridTextColumn Header="Caro?"  Binding="{Binding EhCaro}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Conn Abrir" Height="23" HorizontalAlignment="Left" Margin="12,21,0,0" Name="btn_connection" VerticalAlignment="Top" Width="82" Click="btn_connection_Click" />
+        <Label Content="Desconectado" Height="28" HorizontalAlignment="Left" Margin="293,0,0,0" Name="lb_conn" VerticalAlignment="Top" Foreground="Magenta" />
+        <Button Content="Con Fechar" Height="23" HorizontalAlignment="Left" Margin="100,21,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+    </Grid>
+</Window>
